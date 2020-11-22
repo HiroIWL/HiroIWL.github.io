@@ -10,9 +10,11 @@
 .Descrição {
 	background-color: #5C1A23;
 	color: white;
-	float: left;
-	height: 450px;
+	min-height: : 450px;
 	width: auto;
+	margin-bottom: 40px;
+	margin-right: 186px;
+
 }
 
 .Cabeçalho-img {
@@ -21,9 +23,13 @@
 }
 
 .imagens {
-	float: right;
 	height: 100%;
 	width: auto;
+	margin-left: 186px;
+}
+
+.imagem {
+	margin-bottom: 40px;
 }
 
 .Título {
@@ -38,9 +44,10 @@
 	font-family: lato;
 }
 
-.Botões {
-	font-size: 35px;
+.nav-link {
+	font-size: 32px;
 	font-family: lato;
+	margin-left: 60px;
 }
 
 .Rodapé {
@@ -50,4 +57,7 @@
 .Footer {
 	font-family: lato;
 	color: white;
+	text-align: center;
+
   }
+
