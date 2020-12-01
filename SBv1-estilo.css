@@ -1,4 +1,10 @@
 
+.margem {
+	height: 45px;
+	width: auto;
+}
+
+
 .Menu {
 	background-color: #C32B32;
 	color: white;
@@ -14,9 +20,9 @@
 
 }
 
-.Cabeçalho-img {
-	width: 100%;
-	height: 75%;
+.cabecalho {
+	height: 450px;
+	
 }
 
 .imagens {
