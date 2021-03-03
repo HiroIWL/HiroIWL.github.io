@@ -1,0 +1,66 @@
+
+.margem {
+	height: 45px;
+	width: auto;
+}
+
+
+.Menu {
+	background-color: #C32B32;
+	color: white;
+}
+
+.Descrição {
+	background-color: #5C1A23;
+	color: white;
+	min-height: : 450px;
+	width: auto;
+	margin-bottom: 40px;
+	margin-right: 186px;
+
+}
+
+.cabecalho {
+	height: 450px;
+	
+}
+
+.imagens {
+	height: 100%;
+	width: auto;
+	margin-left: 186px;
+}
+
+.imagem {
+	margin-bottom: 40px;
+}
+
+.Título {
+	font-family: lato;
+	font-size: 50px;
+	font-weight: bolder;
+
+}
+
+.Sumário {
+	font-size: 25px;
+	font-family: lato;
+}
+
+.nav-link {
+	font-size: 32px;
+	font-family: lato;
+	margin-left: 60px;
+}
+
+.Rodapé {
+	background-color: #C32B32;
+}
+
+.Footer {
+	font-family: lato;
+	color: white;
+	text-align: center;
+
+  }
+
