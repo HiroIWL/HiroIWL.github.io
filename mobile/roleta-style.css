@@ -1,0 +1,52 @@
+
+body, * {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+ background-color: gray;
+}
+
+
+section.central {
+
+  background: pink;
+}
+
+
+footer {
+  background:;
+}
+
+.titulo {
+  text-align: center;
+
+
+}
+
+
+
+.sorteio {
+  display: flex;
+  flex-direction: row; /*direção e ordem dos blocos*/
+  flex-wrap: nowrap; /*aplica-se quando se "acaba o espaço"*/
+  justify-content: space-between;
+  overflow-x: scroll;
+  margin: 5px;
+  min-width: 160px;
+  max-width: 
+}
+
+
+
+
+
+
+.Nome {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
