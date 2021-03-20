@@ -1,0 +1,27 @@
+
+body, * {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+div {
+	background: pink;
+}
+
+
+
+
+header {
+	background: blue;
+}
+
+section {
+	background-color: purple;
+}
+
+footer {
+	background: violet;
+}
+

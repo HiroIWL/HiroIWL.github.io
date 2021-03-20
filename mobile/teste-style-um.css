@@ -1,0 +1,99 @@
+body, *{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+display: grid;
+height:15vh;
+background-color: #74B898;
+text-align:center;
+font-size: 36px;
+font-family:  Arial;
+color: white;
+
+
+
+}
+
+
+
+.grafico {
+    display: grid;
+    margin-top: 300px;
+    font-family: Arial;
+    margin-left: 65px;
+}
+
+.pizza {
+    width:231px;
+    height:226px;
+    position:absolute;
+    left:64px;
+    top:114px;
+}
+
+
+
+.legenda {
+height: 50px;
+
+}
+
+
+.relogio {
+
+}
+
+.quadradinho1 {
+    background-color: #74B898;
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:28px;
+    top:400px;
+}
+
+.quadradinho2  {
+    background-color: #456E5B;
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:28px;
+    top:450px;
+    }
+
+.quadradinho3 {
+    background-color: #85D4AF;
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:28px;
+    top:500px;
+}
+
+.square {
+    margin-top: 300px;
+}
+
+
+
+
+
+.relogioprototipo1 { 
+    width:100px;
+    height:99px;
+
+}
+.relogioprototipo2 { 
+    border-radius:500px;
+    background-color: #94A7AE;
+    width:100px;
+    height:99px;
+    margin: 130px;
+    margin-top: 550px;
+    margin-bottom: 300px;
+
+}
