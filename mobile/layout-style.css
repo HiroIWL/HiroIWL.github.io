@@ -11,8 +11,14 @@
 .grafico {
 	height: auto;
 	width: 650px;
+	align-content: center;
+	justify-content: center;
+	margin-left: 10rem;
 }
 
+div {
+	margin-top: 0;
+}
 
 
 body {
@@ -37,10 +43,30 @@ body::-webkit-scrollbar-thumb {
 
 
 main {
-	margin-left: 5rem;
-	padding: 1rem;
+	margin-left: rem;
+	padding: rem;
 
 }
+
+
+header {
+	display: grid;
+	text-align: center;
+	justify-content: center;
+	background-color: #74B898;
+	color:#F4F2F3;
+	margin-top: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 36px;
+	
+
+}
+
+
+
+
+
 
 .navbar {
 
@@ -87,20 +113,22 @@ main {
 }
 
 .link-text {
-	display: none;
+	display: none;	
 	margin-left: 1rem;
 }
 
 .nav-link svg {
 	min-width: 2rem;
 	margin: 0 1.5rem;
+	
 }
 
 
 
 
+
 /* Telas pequenas */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 	.navbar {
 		bottom: 0;
 		width: 100vw;
@@ -120,7 +148,7 @@ main {
 }
 
 /* Telas grandes */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
 	.navbar {
 		top: 0;
 		width: 5rem;
