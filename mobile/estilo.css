@@ -1,0 +1,40 @@
+.btn-uol {
+	background: #ed5709;
+	width: 220px; 
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 4px;
+	color: #FFF;
+	font: system-ui;
+	transition: 500ms ease;
+	margin-left: 50px;
+}
+
+.btn-uol:hover {
+	border-radius: 10px;
+}
+
+.btn-newton {
+	display: block;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #ff005c; /*cor na borda do block*/
+	color: #ff005c;
+	font-family: system-ui;
+	text-transform: uppercase;
+	border-radius: 50px;
+	transition: 200ms ease;
+
+}
+
+.btn-newton:hover {
+	background: #ff005c;
+	color: #fff;
+
+}
