@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    background-color: #F4F2F3;
+}
+
+.logo { 
+    width: auto;
+    height: 50%;
+}
+
+
+.splash-screen {
+    background: #C4C4C4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    transform: scale(1);
+
+}
+
+.splash-screen-out {
+    opacity: 0;
+    transform: scale(4);
+}
+
+.splash-screen-none {
+    display: none;
+}
+
+/* Menu Appbar*/
+
+nav.appbar {
+    background: #74B898;
+    position: fixed;
+    bottom: 0; /* joga os items pra baixo*/
+    left: 0; 
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav.appbar a {
+    color: #456E5B;
+}
+
+
+nav.appbar a.ativo {
+    color: white;
+}
+
+/*telas*/
+.secao-tela {
+    display: none;
+    
+}
+
+.secao-tela.ativo {
+    display: block;
+}
+
+#titulo-grafico {
+    color: white;
+    background-color: #74B898; 
+    text-align: center;
+    height: 3rem;
+    justify-content: center;
+    font-size: 35px;
+}
+
+#grafico-pizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#grafico-string {
+    margin-left: 75px;
+    margin-right: 25px;
+    border: 5px solid #C4C4C4;
+    background-color: #C4C4C4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 50px;
+}
+
+.legenda {
+    text-align: justify;
+}
+
+
+
+
+
+/* Status */
+
+
+.status-content {
+    color: white;
+    background-color: #74B898; 
+    text-align: center;
+    height: 3rem;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+
+
+#esquerda{
+  
+    width: 35vw;
+    float: left;
+    margin-top: 30vh;
+    margin-left: 45px;
+}
+
+
+
+
+
+#direita{
+    display: block;
+    background-color: #C4C4C4;
+    width: 40vw;
+    height: 5vh;
+    margin-top: 35vh;
+    font-size: 20px;
+    text-align: center;
+    justify-content: normal;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.resultado {
+    margin-top: 45vh;
+    font-size: 25px;
+    width: 20vw;
+
+    height: 5vh;
+    margin-left: 225px;
+    margin-right: 200px;
+    text-align: center;
+    justify-content: normal;
+    display: block;
+    background-color: #85D4AF;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+
+
+
+
+/*alertas*/
+
+.alertas-content {
+    color: white;
+    background-color: #74B898; 
+    text-align: center;
+    height: 3rem;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+.aba {
+    background-color: #C4C4C4;
+    
+}
+
+#op-1 {
+    float: left;
+    width: 65vw;
+    margin-left: 5%;
+    
+}
+
+.fal fa-box-check {
+    color: tomato;
+}
+
+
+
+
+
+.not {
+    background-color: #85D4AF;
+    width: auto;
+    height: 102px;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(167, 163, 163);
+}
+
+    
+   
+
