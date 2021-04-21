@@ -121,6 +121,37 @@ nav.appbar a.ativo {
 }
 
 
+.tarde { 
+	background-color:rgba(116.00000068545341, 184.00000423192978, 152.0000061392784, 1);
+	width:20px;
+	height:20px;
+	position:absolute;
+	left:28px;
+	top:342px;
+}
+
+.noite { 
+	background-color:rgba(69.00000348687172, 110.00000104308128, 91.00000217556953, 1);
+	width:20px;
+	height:20px;
+	position:absolute;
+	left:28px;
+	top:382px;
+}
+
+.manha { 
+	background-color:rgba(133.00000727176666, 212.00000256299973, 175.00000476837158, 1);
+	width:20px;
+	height:20px;
+	position:absolute;
+	left:28px;
+	top:422px;
+}
+
+
+
+
+
 
 
 
