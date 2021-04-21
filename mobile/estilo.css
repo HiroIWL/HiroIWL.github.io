@@ -1,6 +1,7 @@
 :root {
     --primary-color:#74B898; /*tom mais escuro*/
     --secondary-color: #85D4AF; /*tom mais claro*/
+    --third-color: #456E5B; /*tom mais escuro ainda*/
 }
 
 
@@ -33,43 +34,8 @@ header {
     padding: 15px 10px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    
-    
-}
 
-.grid .item {
-    display: flex;
-    flex-direction: column;
-    border: 1px #ccc solid;
-    padding: 10px;
-    box-shadow: 1px 1px 2px #ccc;
-}
 
-.grid .item h3 {
-    margin-bottom: 30px;
-    color: var(--primary-color);
-    )
-}
-
-/* resultado */
-.grid .item h2 {
-    text-align: center;
-    color: var(--primary-color);
-}
-/*resultado */
-
-.grid .item img {
-    width: 50px;
-    align-self: center;
-  
-    
-}
-
-img
 
 
 
@@ -167,32 +133,71 @@ nav.appbar a.ativo {
     margin-top: 25px;
 }
 
-#grafico-string {
-    margin-left: 75px;
-    margin-right: 25px;
-    border: 5px solid #C4C4C4;
-    background-color: #C4C4C4;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px gray;
-    margin-top: 50px;
-}
+
+    
 
 .legenda {
     text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    background-color: #F4F2F3;
 }
 
 
+.legenda #manhã {
+    color: var(--secondary-color);
+}
+
+.legenda #tarde {
+    color: var(--primary-color);
+}
+
+.legenda #noite {
+    color: var(--third-color)
+}
 
 
 
 /* Status */
 
+.grid {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+    
+}
 
-.status-content 
+.grid .item {
+    display: flex;
+    flex-direction: column;
+    border: 1px var(--primary-color) solid;
+    padding: 10px;
+    
+}
 
 
 
+.grid .item h3 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: var(--primary-color);
+    
+}
 
+/* resultado */
+.grid .item h2 {
+    text-align: center;
+    color: var(--primary-color);
+}
+/*resultado */
+
+.grid .item img {
+    width: 50px;
+    align-self: center;
+}
 
 
 
