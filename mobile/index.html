@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="./FontAwesome/css/all.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel='stylesheet' type='text/css'>
     <script>
        
        //quando terminar de carregar tudo na tela, ele vai retirar o splashscreen
@@ -31,7 +33,7 @@
         <img src="Logo.png" class="logo">
     </div>
 
-   <nav class="appbar">
+   <nav class="appbar" style="font-size: 35px;">
     <a href="#grafico" class="ativo"><i class="fas fa-chart-pie"></i></a>
     <a href="#status"><i class="fas fa-heartbeat"></i></a>
     <a href="#alertas"><i class="fas fa-bell"></i></a>
@@ -48,24 +50,68 @@
                </div>
                
                <div id="border">
-                    <p id="grafico-string">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac convallis lectus. Cras finibus sollicitudin lorem non commodo. Nulla non pharetra ligula. Suspendisse lobortis nulla lectus, non commodo neque blandit ornare. Nunc lobortis vehicula lacus, sed sollicitudin mi porttitor vitae. Maecenas pharetra a turpis et tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam ultricies mi at laoreet scelerisque. Duis a odio blandit, tempor ex sit amet, varius urna.
-
+                    
+                    <p id="grafico-string" class="legenda 1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p id="grafico-string" class="legenda 2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p id="grafico-string" class="legenda 3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 
-               </p>
+                
                 </div>
             </div>
        </div>
    
+
+
+       <!--Status-->
         <div class="secao-tela" id="status">
            <div class="status-content">
-               <h2>status</h2>
+               <h2>Status</h2>
             </div>
+            
+            <div  id="esquerda"><img src="Coluna.png"></div>
+        <div id="direita"><p>Sua coluna está:
+</p></div>
+            <p class="resultado">Ótima!</p>
+        </div>
+
+
         </div>    
-        
+        <!--Status-->
+
+
+
+
+
+
+
+
+
         <div class="secao-tela" id="alertas">
             <div class="alertas-content">
-                <h2>alertas</h2>
+                <h2>Notificações</h2>
             </div>
+
+            <div class= "aba">
+                <a id="op-1">Marcar como Lidas</a>
+                <a id="op-2">Configurações</a>
+            </div>
+
+
+
+            <div>
+            <p class="not 1">Conecte "Spine Alarm" no seu dispositivo.</p>
+
+            <p class="not 2">Veja o "Gráfico do Dia" para ver seu desempenho.</p>
+
+            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
+            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
+            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
+            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
+            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
+            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
+
+        </div>
+
         </div>
 
 
