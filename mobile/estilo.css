@@ -32,6 +32,8 @@ header {
     font-size: 35px;
     align-items: center;
     padding: 15px 10px;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -118,37 +120,66 @@ nav.appbar a.ativo {
     height: 3rem;
     justify-content: center;
     font-size: 35px;
+    margin-bottom: 5px;
 }
+
+
+
+.organ{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 10px;
+    background-color: #74b89836;
+    border-radius: 30px;
+    
+ 
+    
+    
+}
+
+.organ h3 {
+    font-size: 22px;
+    
+}
+
+.organ span {
+    margin-right: 10000px;
+    font-size: 22px;
+    margin-left: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 
 
 .tarde { 
 	background-color:rgba(116.00000068545341, 184.00000423192978, 152.0000061392784, 1);
-	width:20px;
-	height:20px;
-	position:absolute;
-	left:28px;
-	top:342px;
+	width:30px;
+	height:30px;
+    margin-left: 50px;
+	
 }
 
 .noite { 
 	background-color:rgba(69.00000348687172, 110.00000104308128, 91.00000217556953, 1);
-	width:20px;
-	height:20px;
-	position:absolute;
-	left:28px;
-	top:382px;
+	width:30px;
+	height:30px;
+    margin-left: 50px;
+   
+	
 }
 
 .manha { 
 	background-color:rgba(133.00000727176666, 212.00000256299973, 175.00000476837158, 1);
-	width:20px;
-	height:20px;
-	position:absolute;
-	left:28px;
-	top:422px;
+	width:30px;
+	height:30px;
+    margin-left: 50px;
+	
+
 }
-
-
 
 
 
@@ -157,71 +188,80 @@ nav.appbar a.ativo {
 
 #grafico-pizza {
     display: flex;
-    justify-content: center;
+    justify-content:  center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
+    margin-bottom:30px;
+
+    
 }
 
+#pizza {
+    width: auto;
+    height: 45vh;
+}
 
     
 
-.legenda {
-    text-align: justify;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 50px;
-    background-color: #F4F2F3;
-}
 
-
-.legenda #manhã {
-    color: var(--secondary-color);
-}
-
-.legenda #tarde {
-    color: var(--primary-color);
-}
-
-.legenda #noite {
-    color: var(--third-color)
-}
 
 
 
 /* Status */
 
+.subheader {
+    background-color: var(--primary-color);
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    border: 1px var(--primary-color) solid;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+
+}
+
+
 .grid {
-    margin-top: 150px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    
-    
+    background-color: #74b89836;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .grid .item {
     display: flex;
     flex-direction: column;
-    border: 1px var(--primary-color) solid;
     padding: 10px;
-    
+  
 }
 
 
 
-.grid .item h3 {
+.grid .item p {
     margin-top: 5px;
-    margin-bottom: 50px;
-    color: var(--primary-color);
+    margin-bottom: 25px;
+    color: black;
+    font-size: 22px;
+
     
 }
 
 /* resultado */
-.grid .item h2 {
+.grid .item #resultado {
     text-align: center;
-    color: var(--primary-color);
+    color: black;
+    font-size: 25px;
+    border: 1px #817e7e solid;
+    border-radius: 5px;
 }
 /*resultado */
 
@@ -237,36 +277,18 @@ nav.appbar a.ativo {
 
 
 
-.aba {
-    background-color: #C4C4C4;
-    
-}
-
-#op-1 {
-    float: left;
-    width: 65vw;
-    margin-left: 5%;
-    
-}
-
-.fal fa-box-check {
-    color: tomato;
-}
-
-
-
-
-
 .not {
-    background-color: #85D4AF;
+    background-color: #74b89836;
     width: auto;
     height: 102px;
     margin-top: 30px;
     font-size: 25px;
     text-align: center;
-    color: white;
+    color: black;
+    border: 1px var(--third-color) solid;
+    padding: 20px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px rgb(167, 163, 163);
+   
 }
 
     

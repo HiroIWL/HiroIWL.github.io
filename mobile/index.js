@@ -31,3 +31,65 @@ function botoes() {
   
   // Chamada da função principal para atribuir onClick nos botôes
   botoes();
+
+
+  window.onload = () => {
+    nome_aleatorio_m();
+    nome_aleatorio_n();
+    nome_aleatorio_t();
+    resultado_aleatorio();
+}
+
+
+
+// funções que geram strings aleatórias para o gráfico de porcentagem
+
+  function nome_aleatorio_t() {
+    let lista_de_nomes = [ "0%","5%", "10%", "15%", "20%", "25%", "30%", "35%", "40%", "45%", "50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%" ]
+    let tamanho = lista_de_nomes.length;
+    let posicao = Math.floor(Math.random() * tamanho)
+    let nome = lista_de_nomes [posicao];
+
+    console.log(lista_de_nomes)
+
+    document.querySelector("#legenda-t").textContent = nome;
+
+}
+
+
+function nome_aleatorio_n() {
+  let lista_de_nomes = ["0%","5%", "10%", "15%", "20%", "25%", "30%", "35%", "40%", "45%", "50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+  let tamanho = lista_de_nomes.length;
+  let posicao = Math.floor(Math.random() * tamanho)
+  let nome = lista_de_nomes [posicao];
+
+  console.log(lista_de_nomes)
+
+  document.querySelector("#legenda-n").textContent = nome;
+
+}
+
+function nome_aleatorio_m() {
+  let lista_de_nomes = ["0%","5%", "10%", "15%", "20%", "25%", "30%", "35%", "40%", "45%", "50%", "55%", "60%", "65%", "70%", "75%", "80%", "85%", "90%", "95%", "100%"]
+  let tamanho = lista_de_nomes.length;
+  let posicao = Math.floor(Math.random() * tamanho)
+  let nome = lista_de_nomes [posicao];
+
+  console.log(lista_de_nomes)
+
+  document.querySelector("#legenda-m").textContent = nome;
+
+}
+
+// função que irá gerar resultados diários do estado geral da coluna
+
+function resultado_aleatorio() {
+  let lista_de_nomes = ["Razoável","Ruim","Excelente"]
+  let tamanho = lista_de_nomes.length;
+  let posicao = Math.floor(Math.random() * tamanho)
+  let nome = lista_de_nomes [posicao];
+
+  console.log(lista_de_nomes)
+
+  document.querySelector("#resultado").textContent = nome;
+}

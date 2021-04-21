@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="./FontAwesome/css/all.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
     <script>
        
@@ -22,6 +23,10 @@
                 splash.className = "splash-screen-none";
             }, 500, splash)//parametro 1: o que vai fazer (ou a função), nesse caso vai adicionar 'splash-screen-none'.; p2: quanto tempo em ms (mesmo tempo da transição) ; p3: variavel que será enviada para essa função do "timeout";
         }
+
+       
+        
+
     </script>
     
     <title>Spine Alarm</title>
@@ -41,30 +46,29 @@
    <div>
        <!--Gráfico-->
        <div class="secao-tela ativo" id="grafico"> 
-           <div id="grafico-content">
-               <div class="titulo">
+           
+            <div class="titulo">
                     <header id="titulo-grafico">Gráfico do dia</header>
-                </div>
-               <div id="grafico-pizza">
-                    <img src="grafico.png">
-               </div>
-
-               <div class="manha"></div>
-  <div class="tarde"></div>
-  <div class="noite"></div>
-
-               <div class="legenda">
-                    <div class="item">
-                        <p id="manhã" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="item">
-                        <p id="tarde" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="item">
-                        <p id="noite" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
             </div>
+            <div id="grafico-pizza">
+                    <img src="grafico.png" id="pizza">
+            </div>
+
+                <div class="organ container">
+
+                     <div class="tarde item"></div> <h3>Tarde:</h3><span id="legenda-t"></span>
+                     <div class="noite item"></div> <h3>Noite:</h3><span id="legenda-n"></span>
+                     <div class="manha item"></div> <h3>Manhã:</h3><span id="legenda-m"></span>
+
+               
+                               
+
+                                
+                </div>
+            
+            
+                
+            
        </div>
        <!--Gráfico-->
 
@@ -74,16 +78,20 @@
        <!--Status-->
         <div class="secao-tela" id="status">
                <header>Status</header>
-                <div class="grid container">
-                    <div class="item">
-                        <img src="Coluna.png" id="spine">
-                    </div>
-                    <div class="item">
-                        <h3>Sua coluna está:</h3>
-                        <h2>Resultado</h2>
-                    </div>
+               <div class="subheader">
+                   <p>A partir de uma média geral do mês, segue o estado da sua postura:</p>
+               </div>
+               
+                    <div class="grid container">
+                        <div class="item">
+                            <img src="Coluna.png" id="spine">
+                        </div>
+                        <div class="item" id="text">
+                            <p>Sua postura está:<p>
+                            <p id="resultado"></p>
+                        </div>
                    
-                </div>
+                    </div>
         </div>
 
         </div>    
