@@ -1,12 +1,77 @@
+:root {
+    --primary-color:#74B898; /*tom mais escuro*/
+    --secondary-color: #85D4AF; /*tom mais claro*/
+}
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', system-ui;
     background-color: #F4F2F3;
 }
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: none;
+}
+
+header {
+    color: white;
+    background-color: var(--primary-color); 
+    text-align: center;
+    height: 3rem;
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+    
+}
+
+.grid .item {
+    display: flex;
+    flex-direction: column;
+    border: 1px #ccc solid;
+    padding: 10px;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.grid .item h3 {
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    )
+}
+
+/* resultado */
+.grid .item h2 {
+    text-align: center;
+    color: var(--primary-color);
+}
+/*resultado */
+
+.grid .item img {
+    width: 50px;
+    align-self: center;
+  
+    
+}
+
+img
+
+
 
 .logo { 
     width: auto;
@@ -76,6 +141,10 @@ nav.appbar a.ativo {
     display: block;
 }
 
+
+
+/*Gráfico*/
+
 #titulo-grafico {
     color: white;
     background-color: #74B898; 
@@ -84,6 +153,10 @@ nav.appbar a.ativo {
     justify-content: center;
     font-size: 35px;
 }
+
+
+
+
 
 #grafico-pizza {
     display: flex;
@@ -115,59 +188,10 @@ nav.appbar a.ativo {
 /* Status */
 
 
-.status-content {
-    color: white;
-    background-color: #74B898; 
-    text-align: center;
-    height: 3rem;
-    justify-content: center;
-    font-size: 25px;
-}
+.status-content 
 
 
 
-
-#esquerda{
-  
-    width: 35vw;
-    float: left;
-    margin-top: 30vh;
-    margin-left: 45px;
-}
-
-
-
-
-
-#direita{
-    display: block;
-    background-color: #C4C4C4;
-    width: 40vw;
-    height: 5vh;
-    margin-top: 35vh;
-    font-size: 20px;
-    text-align: center;
-    justify-content: normal;
-    float: left;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px gray;
-}
-
-.resultado {
-    margin-top: 45vh;
-    font-size: 25px;
-    width: 20vw;
-
-    height: 5vh;
-    margin-left: 225px;
-    margin-right: 200px;
-    text-align: center;
-    justify-content: normal;
-    display: block;
-    background-color: #85D4AF;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px gray;
-}
 
 
 
@@ -175,15 +199,7 @@ nav.appbar a.ativo {
 
 /*alertas*/
 
-.alertas-content {
-    color: white;
-    background-color: #74B898; 
-    text-align: center;
-    height: 3rem;
-    justify-content: center;
-    font-size: 25px;
 
-}
 
 .aba {
     background-color: #C4C4C4;

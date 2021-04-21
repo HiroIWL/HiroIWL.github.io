@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="./FontAwesome/css/all.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel='stylesheet' type='text/css'>
+
     <script>
        
        //quando terminar de carregar tudo na tela, ele vai retirar o splashscreen
@@ -25,7 +24,7 @@
         }
     </script>
     
-    <title>Splash Screen</title>
+    <title>Spine Alarm</title>
 </head>
 
 <body>
@@ -40,10 +39,11 @@
    </nav>
 
    <div>
+       <!--Gráfico-->
        <div class="secao-tela ativo" id="grafico"> 
            <div id="grafico-content">
                <div class="titulo">
-                    <h1 id="titulo-grafico">Gráfico do dia</h1>
+                    <header id="titulo-grafico">Gráfico do dia</header>
                 </div>
                <div id="grafico-pizza">
                     <img src="grafico.png">
@@ -59,21 +59,25 @@
                 </div>
             </div>
        </div>
-   
+       <!--Gráfico-->
+
+
 
 
        <!--Status-->
         <div class="secao-tela" id="status">
-           <div class="status-content">
-               <h2>Status</h2>
-            </div>
-            
-            <div  id="esquerda"><img src="Coluna.png"></div>
-        <div id="direita"><p>Sua coluna está:
-</p></div>
-            <p class="resultado">Ótima!</p>
+               <header>Status</header>
+                <div class="grid container">
+                    <div class="item">
+                        <img src="Coluna.png">
+                    </div>
+                    <div class="item">
+                        <h3>Sua coluna está:</h3>
+                        <h2>Resultado</h2>
+                    </div>
+                   
+                </div>
         </div>
-
 
         </div>    
         <!--Status-->
@@ -85,16 +89,14 @@
 
 
 
+        <!--Notificações-->
 
         <div class="secao-tela" id="alertas">
-            <div class="alertas-content">
-                <h2>Notificações</h2>
-            </div>
+            
+                <header>Notificações</header>
+            
 
-            <div class= "aba">
-                <a id="op-1">Marcar como Lidas</a>
-                <a id="op-2">Configurações</a>
-            </div>
+           
 
 
 
@@ -104,17 +106,20 @@
             <p class="not 2">Veja o "Gráfico do Dia" para ver seu desempenho.</p>
 
             <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
-            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
-            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
-            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
-            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
-            <p class="not 3">Sua postura não está correta. Por favor fique na postura correta.</p>
-
-        </div>
+         
 
         </div>
 
 
+        <!--Notificações-->
+
+
+
+
+
+
+
+    
     </div>
 
 
