@@ -260,8 +260,6 @@ nav.appbar a.ativo {
     text-align: center;
     color: black;
     font-size: 25px;
-    border: 1px #817e7e solid;
-    border-radius: 5px;
 }
 /*resultado */
 
@@ -270,7 +268,19 @@ nav.appbar a.ativo {
     align-self: center;
 }
 
-
+.calcular-media {
+    background-color: var(--primary-color);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0px 1px 3px  #817e7e;
+    border: 1px var(--primary-color) solid;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 22px;
+}
 
 
 /*alertas*/
@@ -291,6 +301,30 @@ nav.appbar a.ativo {
    
 }
 
+
+
     
-   
+.subheader-2 {
+    background-color: var(--primary-color);
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0px 1px 3px  #817e7e;
+    border: 1px var(--primary-color) solid;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+
+}
+
+.subheader-2 a{
+    text-decoration: none;
+    color:#F4F2F3;
+}
+
+.remover {
+    display:none;
+}
 
