@@ -120,7 +120,7 @@ nav.appbar a.ativo {
     height: 3rem;
     justify-content: center;
     font-size: 35px;
-    margin-bottom: 5px;
+    
 }
 
 
@@ -130,9 +130,10 @@ nav.appbar a.ativo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    margin-left: 10px;
+    margin-left: 8px auto;
     background-color: #74b89836;
     border-radius: 30px;
+    padding:8px;
     
  
     
@@ -233,15 +234,15 @@ nav.appbar a.ativo {
     grid-gap: 10px;
     background-color: #74b89836;
     border-radius: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px auto;
+    
 }
 
 .grid .item {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-  
+    padding: 0px;
+
 }
 
 
@@ -264,13 +265,13 @@ nav.appbar a.ativo {
 /*resultado */
 
 .grid .item img {
-    width: 50px;
+    width: 30px;
     align-self: center;
 }
 
 .calcular-media {
     background-color: var(--primary-color);
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 50px;
     margin-right: 50px;
     box-shadow: 0px 1px 3px  #817e7e;
@@ -278,8 +279,9 @@ nav.appbar a.ativo {
     border-radius: 5px;
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: px;
     font-size: 22px;
+    
 }
 
 
@@ -316,7 +318,7 @@ nav.appbar a.ativo {
     text-align: center;
     padding: 10px;
     font-size: 22px;
-
+    
 }
 
 .subheader-2 a{
@@ -328,3 +330,34 @@ nav.appbar a.ativo {
     display:none;
 }
 
+@media(max-height: 600px) {
+    .calcular-media {
+        margin-top:35px;
+    }
+   
+}
+
+@media(min-height:601px) {
+    .calcular-media {
+        margin-top: 50px;
+    }
+    .grid {
+        margin-top: 60px;
+    }
+}
+
+@media(min-height:650px) {
+    .calcular-media {
+        margin-top: 70px;
+    }
+}
+
+@media(min-height:700px) {
+    .calcular-media {
+        margin-top: 100px;
+    }
+
+    .grid {
+        margin-top: 70px;
+    }
+}
