@@ -89,30 +89,36 @@ function nome_aleatorio_m() {
 
 
 function calcular_media () {
- let manhã = document.querySelector("#legenda-m").value;
- let tarde = document.querySelector("#legenda-t").value;
- let noite = document.querySelector("#legenda-n").value;
+ let manha = document.querySelector("#legenda-m").textContent;
+ let tarde = document.querySelector("#legenda-t").textContent;
+ let noite = document.querySelector("#legenda-n").textContent;
 
-   manhã = parseInt(manhã);
+   manha = parseInt(manha);
    tarde = parseInt(tarde);
    noite = parseInt(noite);
 
 
-  let media = (manhã + tarde + noite)/ 3;
+  let media = (manha + tarde + noite)/ 3;
   
   let resultado = null;
-
-  if (media >= 75) {
+  if (media > 50) {
+    resultado = "Péssima"
+  }
+  else if (media > 30 && media <= 50) {
     resultado = "Ruim"
   }
-  else if (media < 75 && media > 25 ) {
+  else if (media <= 30 && media >= 20 ) {
     resultado = "Razoável"
   }
-  else if (media <= 25 ) {
+  else if (media < 20 && media > 10 ) {
+    resultado = "Boa"
+  }
+  else if (media <= 10) {
     resultado = "Excelente"
   }
+  
 
-  console.log(manhã, tarde, noite);
+  console.log(manha, tarde, noite);
   console.log(media);
   console.log(resultado);
 
@@ -126,7 +132,7 @@ btn_calcular_media.onclick = () => { calcular_media(); }
 
 
 
-
+//limpar notificações
 let notif = document.querySelector(".not");
 let btn = document.getElementById('limpar');
 btn.addEventListener('click', () => {
